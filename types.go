@@ -198,7 +198,7 @@ type VMRegistryTemplateVersion struct {
 
 type StatusBodyResponse struct {
 	DefaultResponse
-	StatusBody Response `json:"body"`
+	Body StatusBody `json:"body"`
 }
 
 type StatusBody struct {
